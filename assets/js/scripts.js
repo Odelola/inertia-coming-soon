@@ -2,32 +2,6 @@ const inputEmail = document.getElementById('notifyForm_email');
 const submitEmail = document.getElementById('notifyForm_submit');
 const validatingText = document.getElementById('validateText');
 const form = document.getElementById('notifyForm');
-// const animationTimeline =  anime.timeline({
-//     easing: 'easeOutExpo',
-// });
-// animationTimeline
-// .add({
-//     targets: "#navigation",
-//     opacity: [0, 1],
-//     // translateX: [100, 250], // from 100 to 250
-//     // direction: 'alternate',
-//     // loop: true,
-//     duration: 2000,
-// })
-
-// // anime({
-// //     targets: ".nav-link",
-// //     translateX: 1000,
-// //     delay: anime.stagger(100)
-// // })
-// anime({
-//     targets: '.nav-inner',
-//     opacity: 1,
-//     translateX: [100, 250], // from 100 to 250
-//   delay: 500,
-//   direction: 'alternate',
-//   loop: true
-// })
 
 const animationTimeline = gsap.timeline({ defaults: { ease: Power3.easeOut, duration: 2 } });
 animationTimeline
